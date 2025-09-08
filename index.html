@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GrowSavoir</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">GrowSavoir</div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Accueil</a>
+        <a href="#features">Fonctionnalités</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </header>
+    <main>
+      <section id="hero" class="hero">
+        <h1>Apprenez l'islam de manière moderne</h1>
+        <p>Contenu éducatif accessible et interactif.</p>
+        <a class="btn" href="#features">Découvrir</a>
+      </section>
+      <section id="features" class="features">
+        <article>
+          <h2>Ressources</h2>
+          <p>Accédez à une bibliothèque de ressources vérifiées.</p>
+        </article>
+        <article>
+          <h2>Communauté</h2>
+          <p>Rejoignez une communauté d'apprenants.</p>
+        </article>
+        <article>
+          <h2>Quiz interactifs</h2>
+          <p>Testez vos connaissances grâce à des quiz adaptés.</p>
+        </article>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="vous@exemple.com"
+            required
+          />
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 GrowSavoir</p>
+    </footer>
+  </body>
+</html>
